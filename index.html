@@ -14,11 +14,16 @@
         I'm thinking of a number from 1 to 99! Can you guess it in 5 tries or
         less?
       </p>
+
       <div>
+        <!-- Input field enter guess -->
         <input type="number" id="guess" min="1" max="99" />
+        <!-- Button to submit the guess -->
         <button id="submit">Submit Guess</button>
       </div>
+
       <div>
+        <!-- Feedback Messages to user -->
         <p class="message" id="number-of-guesses"></p>
         <p class="message" id="too-high">You guessed too high. Try again.</p>
         <p class="message" id="too-low">You guessed too low. Try again.</p>
@@ -30,8 +35,11 @@
           Would you like to play again?
         </p>
       </div>
+
+      <!-- Button to reset the game -->
       <button id="reset">Reset</button>
     </main>
+    <!-- Link to JS file -->
     <script src="index.js"></script>
   </body>
 </html>
